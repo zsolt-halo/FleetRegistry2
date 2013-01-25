@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fleetregistry.main"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.fleetregistry.main.MenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fleetregistry.main.WorksActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_works"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.fleetregistry.main.DriversActivity"
+            android:label="@string/title_activity_drivers" >
+        </activity>
+        <activity
+            android:name="com.fleetregistry.main.StationsActivity"
+            android:label="@string/title_activity_stations" >
+        </activity>
+        <activity
+            android:name="com.fleetregistry.main.PartnersActivity"
+            android:label="@string/title_activity_partners" >
+        </activity>
+        <activity
+            android:name="com.fleetregistry.main.CarsActivity"
+            android:label="@string/title_activity_cars" >
+        </activity>
+        <activity
+            android:name="com.fleetregistry.main.AdminsActivity"
+            android:label="@string/title_activity_admins" >
+        </activity>
+        <activity
+            android:name="com.fleetregistry.main.ProfilActivity"
+            android:label="@string/title_activity_profil" >
+        </activity>
+    </application>
+
+</manifest>

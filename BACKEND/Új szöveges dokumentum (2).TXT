@@ -1,0 +1,11 @@
+cloudf
+
+
+
+
+
+"host": "172.30.48.30",
+"port": 3306,
+"user": "uQgZzkyligNqv",
+"username": "uQgZzkyligNqv",
+"password": "pGuQBm7txObVm"
